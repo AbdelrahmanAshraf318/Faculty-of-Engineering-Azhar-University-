@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css';
 import Azhar_logo from '../images/Azhar_logo.png';
 
+
 class Header extends Component
 {
     render(){
@@ -50,7 +51,14 @@ class Header extends Component
                             <a className="nav-link" href="#">البحث العلمى</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">شئون الدراسات العليا</a>
+                            <a className="nav-link about" href="#">شئون الدراسات العليا</a>
+                            <div className="menu">
+                                <a href="#">قواعد التسجيل ومواعيد التسجيل</a>
+                                <a href="#">التسجيل لدورات الدراسات العليا (دبلوم-ماجيستير-دكتوراه)</a>
+                                <a href="#">نماذج التسجيل المدزو تغير عنوان الرساله و نماذج اخرى</a>
+                                <a href="#">البحث فى قاعدة البيانات الباحثين (مشرف-باحث-موظف)</a>
+                                <a href="#">اعلان نتائج الدبلوم والمواد التخصصيه</a>
+                            </div>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">شئون الطلاب و الخريجين</a>
@@ -63,6 +71,15 @@ class Header extends Component
                         </li>
                         <li className="nav-item active">
                             <a className="navbar-brand about" href="#">عن الكليه</a>
+                            <div className="menu">
+                                <a href="#">كلمة العميد</a>
+                                <a href="#">كلمة وكيل الكليه للدراسات العليا</a>
+                                <a href="#">كلمةوكيل شئون الطلاب والتعليم</a>
+                                <a href="#">الرؤيه والرساله والاهداف</a>
+                                <a href="#">الهيكل التنظيمى</a>
+                                <a href="#">دليل الكليه</a>
+                                <a href="#">قرارات مجلس الكليه</a>
+                            </div>
                         </li>
                     </ul>
                 </div>

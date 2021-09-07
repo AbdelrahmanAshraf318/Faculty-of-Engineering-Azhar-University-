@@ -17,10 +17,7 @@
     font-size: 12px;
 }
 
-.jumbotron .about
-{
-    font-size: 20px;
-}
+
 
 .logo
 {
@@ -29,7 +26,36 @@
     top: 0px;
 }
 
+nav #navbarNav ul li a
+{
+    font-size: 13px;
+} 
+
+.menu
+{
+    width: 120px;
+    background-color: #1f1f1f;
+    display: none;    
+}
+
+.menu a
+{
+    display: block;
+    text-decoration: none;
+}
+
+.menu a:hover
+{
+    color: aqua;
+}
+
 nav #navbarNav ul li a:hover
 {
     color: black;
 } 
+
+nav #navbarNav ul li .about:hover + .menu
+{
+    display: block;
+}
+
