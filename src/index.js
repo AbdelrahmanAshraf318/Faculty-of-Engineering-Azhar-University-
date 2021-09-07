@@ -1,17 +1,13 @@
-import React from 'react';
+/** When we run the project , this file will be seen first **/
+/*We make importing for React libraries here
+and react-dom which can reach the id="root" at index.html in public folder
+*/
+import react from 'react'
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+/** When you call any component , call it as a tag **/
+ReactDOM.render(<App/> , document.getElementById('root'));
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+

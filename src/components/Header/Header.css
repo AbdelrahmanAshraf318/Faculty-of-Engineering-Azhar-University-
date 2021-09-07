@@ -1,0 +1,35 @@
+.jumbotron
+{
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background: rgba(2,139,255,1);;
+    color: white;
+}
+
+.jumbotron nav
+{
+    float: right;
+} 
+
+.jumbotron nav a
+{
+    color: white;
+    font-size: 12px;
+}
+
+.jumbotron .about
+{
+    font-size: 20px;
+}
+
+.logo
+{
+    width: 25%; 
+    margin-left: 440px;
+    top: 0px;
+}
+
+nav #navbarNav ul li a:hover
+{
+    color: black;
+} 
