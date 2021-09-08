@@ -22,18 +22,25 @@
 .logo
 {
     width: 25%; 
-    margin-left: 440px;
+    margin-left: 510px;
     top: 0px;
+}
+
+nav #navbarNav ul li 
+{
+    width: 100%;
+    padding-left: 90px;
 }
 
 nav #navbarNav ul li a
 {
+    width: 120px;
     font-size: 13px;
 } 
 
 .menu
 {
-    width: 120px;
+    
     background-color: #1f1f1f;
     display: none;    
 }

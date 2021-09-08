@@ -21,50 +21,16 @@ class Header extends Component
                             <a className="nav-link" href="#">اتصل بنا</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">أعضاء هيئة التدريس</a>
+                            <a className="nav-link" href="#">مؤتمر الكليه</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">مجلة الكليه</a>
+                            <a className="nav-link about" href="#">مجلة الكليه</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">المؤتمر القادم</a>
+                            <a className="nav-link" href="#">المركز الاعلامى</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">مجلدات المؤتمرات السابقه</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">عن مؤتمرات الكليه السابقه</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">مؤتمرات الكليه</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">خدمة المجتمع</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">وحدة التدريب</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">وحدة الجوده</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">البحث العلمى</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link about" href="#">شئون الدراسات العليا</a>
-                            <div className="menu">
-                                <a href="#">قواعد التسجيل ومواعيد التسجيل</a>
-                                <a href="#">التسجيل لدورات الدراسات العليا (دبلوم-ماجيستير-دكتوراه)</a>
-                                <a href="#">نماذج التسجيل المدزو تغير عنوان الرساله و نماذج اخرى</a>
-                                <a href="#">البحث فى قاعدة البيانات الباحثين (مشرف-باحث-موظف)</a>
-                                <a href="#">اعلان نتائج الدبلوم والمواد التخصصيه</a>
-                            </div>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">شئون الطلاب و الخريجين</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">شئون الدراسه</a>
+                            <a className="nav-link" href="#">الاداره</a>
                         </li>
                         <li className="nav-item active">
                             <a className="nav-link" href="#">الاقسام</a>
@@ -80,6 +46,9 @@ class Header extends Component
                                 <a href="#">دليل الكليه</a>
                                 <a href="#">قرارات مجلس الكليه</a>
                             </div>
+                        </li>
+                        <li className="nav-item active">
+                            <a href="#" className="navbar-brand about">الصفحه الرئيسيه</a>
                         </li>
                     </ul>
                 </div>

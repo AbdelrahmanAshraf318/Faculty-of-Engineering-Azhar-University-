@@ -1,0 +1,30 @@
+footer
+{
+    width: 100%;
+}
+
+footer .footer .container .row .content-2
+{
+    float: right;
+} 
+
+footer .footer .container .row .content-2 h5
+{
+    color: #F8C100
+}
+
+footer .footer .container .row .content-2 address
+{
+    color:white;
+}
+
+footer .footer .container .row-2 .copy p
+{
+    color: white;
+    margin-left: 650px;
+}
+
+footer .footer .container .row .content-1 .text-center a
+{
+    padding: 20px;
+}
