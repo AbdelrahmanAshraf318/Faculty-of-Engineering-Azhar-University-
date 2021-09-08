@@ -36,15 +36,17 @@ class Header extends Component
                             <a className="nav-link" href="#">الاقسام</a>
                         </li>
                         <li className="nav-item active">
-                            <a className="navbar-brand about" href="#">عن الكليه</a>
-                            <div className="menu">
-                                <a href="#">كلمة العميد</a>
-                                <a href="#">كلمة وكيل الكليه للدراسات العليا</a>
-                                <a href="#">كلمةوكيل شئون الطلاب والتعليم</a>
-                                <a href="#">الرؤيه والرساله والاهداف</a>
-                                <a href="#">الهيكل التنظيمى</a>
-                                <a href="#">دليل الكليه</a>
-                                <a href="#">قرارات مجلس الكليه</a>
+                            <div className="dropdown">
+                                <button className="dropbtn">عن الكليه</button>
+                                <div className="menu dropdown-content">
+                                    <a href="#">كلمة العميد</a>
+                                    <a href="#">كلمة وكيل الكليه للدراسات العليا</a>
+                                    <a href="#">كلمةوكيل شئون الطلاب والتعليم</a>
+                                    <a href="#">الرؤيه والرساله والاهداف</a>
+                                    <a href="#">الهيكل التنظيمى</a>
+                                    <a href="#">دليل الكليه</a>
+                                    <a href="#">قرارات مجلس الكليه</a>
+                                </div>
                             </div>
                         </li>
                         <li className="nav-item active">

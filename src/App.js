@@ -13,11 +13,11 @@ class App extends Component
       
         <header>
           <Header/>
-      </header>
+        </header>
 
-      <footer>
-        <Footer/>
-      </footer>
+        <footer>
+          <Footer/>
+        </footer>
       </body>   
     )
   }
