@@ -1,0 +1,18 @@
+.parent .parent-3  .parent-2 {
+    background: rgb(255,255,255);
+    background: linear-gradient(290deg, rgba(255,255,255,0.5889706224286589) 0%, rgba(255,255,255,0.5777661406359419) 100%);
+}
+.parent .parent-3  .parent-2 .textCaroasel {
+    font-weight: 650;
+}
+.parent .parent-3{
+
+    height: 345px;
+    
+}
+.newsTitle{
+
+    position: relative;
+    left: 315px;
+}
+

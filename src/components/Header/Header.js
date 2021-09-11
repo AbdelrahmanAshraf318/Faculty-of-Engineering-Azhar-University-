@@ -27,13 +27,43 @@ class Header extends Component
                             <a className="nav-link about" href="#">مجلة الكليه</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">المركز الاعلامى</a>
+                            <div className="dropdown">
+                                <button className="dropbtn">المركز الاعلامى</button>
+                                <div className="menu dropdown-content">
+                                    <a href="#">الاخبار</a>
+                                    <a href="#">الفعاليات</a>
+                                    <a href="#">الاعلانات</a>
+                                </div>
+                            </div>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">الاداره</a>
+                        <div className="dropdown">
+                                <button className="dropbtn">الاداره</button>
+                                <div className="menu dropdown-content">
+                                    <a href="#">وكالة الكليه للدراسات العليا</a>
+                                    <a href="#">وكالة الكليه لشئون الطلاب و التعليم</a>
+                                    <a href="#">شئون الطلاب</a>
+                                    <a href="#">البحث العلمى</a>
+                                    <a href="#">وحدة الجوده</a>
+                                    <a href="#">وحدة التدريب</a>
+                                    <a href="#">خدمة المجتمع</a>
+                                    <a href="#">وحدة التعلم الالكترونى</a>
+                                </div>
+                            </div>
                         </li>
                         <li className="nav-item active">
-                            <a className="nav-link" href="#">الاقسام</a>
+                            <div className="dropdown">
+                                <button className="dropbtn">الاقسام العلميه</button>
+                                <div className="menu dropdown-content">
+                                    <a href="#">هندسة النظم و الحاسبات</a>
+                                    <a href="#">هندسة التخطيط العمرانى</a>
+                                    <a href="#">الهندسه الكهربيه</a>
+                                    <a href="#">هندسة التعدين والبترول</a>
+                                    <a href="#">الهندسه الميكانيكيه</a>
+                                    <a href="#">الهندسه المدنيه</a>
+                                    <a href="#">قرارات مجلس الكليه</a>
+                                </div>
+                            </div>
                         </li>
                         <li className="nav-item active">
                             <div className="dropdown">

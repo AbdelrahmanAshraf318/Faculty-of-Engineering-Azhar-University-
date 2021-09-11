@@ -1,6 +1,7 @@
 import React , {Component} from "react";
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import SideShow from './components/SideShow/SideShow';
 import './App.css'
 
 class App extends Component
@@ -15,6 +16,8 @@ class App extends Component
           <Header/>
         </header>
 
+        <SideShow />
+        
         <footer>
           <Footer/>
         </footer>

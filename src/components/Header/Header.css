@@ -1,6 +1,6 @@
 .jumbotron
 {
-    padding: 70px 30px 70px 30px;
+    padding: 40px 30px 70px 30px;
     margin: 0px auto;
     background: rgba(2,139,255,1);;
     color: white;
@@ -98,4 +98,3 @@ nav #navbarNav ul li .about:hover + .menu
   .dropdown-content a:hover {background-color: #ddd;}
 
   .dropdown:hover .dropdown-content {display: block;}
-

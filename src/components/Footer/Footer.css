@@ -1,6 +1,9 @@
 footer
 {
     width: 100%;
+    background-color: #313233;
+    bottom: 0px;
+    padding: 20px 0px 20px 0px;
 }
 
 footer .footer .container .row .content-2
