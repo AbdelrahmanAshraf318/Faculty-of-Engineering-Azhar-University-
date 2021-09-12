@@ -1,0 +1,30 @@
+.box-content
+{
+    color: #3385b7;
+    border: 1px solid grey;
+    box-shadow: 5px 5px #187cc2;
+    
+}
+
+.box-content a
+{
+    display: block;
+}
+
+.box-content h6
+{
+    display: block;
+    float: right;
+}
+
+.box-content p
+{
+    display: block;
+    float: right;
+}
+
+.box-content h6:hover
+{
+    background-color: #3385b7;
+    color: white;
+}
