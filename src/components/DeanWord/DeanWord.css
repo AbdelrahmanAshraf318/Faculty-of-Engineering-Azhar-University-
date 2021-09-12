@@ -1,0 +1,53 @@
+.dean
+{
+    padding: 0px;
+    margin: 0px;
+    display: flex;   
+}
+
+.box
+{
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    background-color: darkgrey;
+    display: flex;
+}
+
+.box p
+{
+    color: white;
+    font-size: 20px;
+}
+
+.box img
+{
+    width: 70px;
+    height: 70px;
+    border: 1px solid yellow;
+}
+
+.theImg
+{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+  
+  /* Bottom left text */
+  .bottom-left {
+      width: 250px;
+      height: 40px;
+      background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+  }
+
+  .theImg img
+  {
+      width: 100%;
+      height: 300px;
+  }
