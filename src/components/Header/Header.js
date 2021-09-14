@@ -2,11 +2,14 @@ import React , {Component}  from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css';
 import Azhar_logo from '../images/Azhar_logo.png';
+import { BrowserRouter  ,Router , Route } from 'react-router-dom';
+import Main from '../../Main';
 
 
 class Header extends Component
 {
-    render(){
+    render(){   
+            
        return(
         <header className="jumbotron">
             <div className="logo">
@@ -55,7 +58,7 @@ class Header extends Component
                             <div className="dropdown">
                                 <button className="dropbtn">الاقسام العلميه</button>
                                 <div className="menu dropdown-content">
-                                    <a href="#">هندسة النظم و الحاسبات</a>
+                                    <a href="/computerEngineering">هندسة النظم و الحاسبات</a>
                                     <a href="#">هندسة التخطيط العمرانى</a>
                                     <a href="#">الهندسه الكهربيه</a>
                                     <a href="#">هندسة التعدين والبترول</a>
@@ -80,12 +83,15 @@ class Header extends Component
                             </div>
                         </li>
                         <li className="nav-item active">
-                            <a href="#" className="navbar-brand about">الصفحه الرئيسيه</a>
+                            <a href="/" className="navbar-brand about">الصفحه الرئيسيه</a>
                         </li>
                     </ul>
                 </div>
-            </nav>
+            </nav> 
         </header>
+
+         
+
        )
     }
 }
