@@ -9,6 +9,7 @@ import Ads from  "./components/Ads/Ads";
 import  Navbar  from "./components/Navbar/Navbar";
 
 
+
 class Main extends Component
 {
 
@@ -33,6 +34,9 @@ class Main extends Component
               <h1>كلمة العمداء والوكلاء</h1>
               <DeanWord  />
             </div>
+
+          
+
         </div>
         
 
