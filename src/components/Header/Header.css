@@ -95,16 +95,19 @@ nav #navbarNav ul li a
 .menu a:hover
 {
     color: aqua;
+    transition: 0.5s;
 }
 
 nav #navbarNav ul li a:hover
 {
     color: black;
+    transition: 0.5s;
 } 
 
 nav #navbarNav ul li .about:hover + .menu
 {
     display: block;
+    transition: 0.5s;
 }
 
 
@@ -136,6 +139,6 @@ nav #navbarNav ul li .about:hover + .menu
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {background-color: #ddd;transition: 0.5s;}
 
   .dropdown:hover .dropdown-content {display: block;}
