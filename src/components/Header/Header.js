@@ -4,7 +4,9 @@ import './Header.css';
 import Azhar_logo from '../images/Azhar_logo.png';
 import { BrowserRouter  ,Router , Route } from 'react-router-dom';
 import Main from '../../Main';
-
+import 'font-awesome/css/font-awesome.css';
+import 'bootstrap-social/bootstrap-social.css';
+import { FaGlobeAfrica } from "react-icons/fa";
 
 class Header extends Component
 {
@@ -12,6 +14,13 @@ class Header extends Component
             
        return(
         <header className="jumbotron">
+            <div className="login-register">
+                <a className="icon" href="#"><FaGlobeAfrica />Language</a>
+                <div className="links">
+                    <a className="" href="#">Login</a>
+                    <a className="" href="#">Register</a>
+                </div>
+            </div>
             <div className="logo">
                 <a className="theLogo" href="#">
                     <img  src={Azhar_logo} alt="logo" />
